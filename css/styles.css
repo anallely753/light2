@@ -1,0 +1,103 @@
+ body {
+ 	display: flex;
+ 	min-height: 100vh;
+ 	flex-direction: column;
+ }
+
+ main {
+ 	flex: 1 0 auto;
+ 	height: 70vh;
+ }
+
+
+ /*NAV*/
+ nav{
+ 	background-color: white;
+ 	border-bottom-style: solid;
+ 	border-color: lightgray;
+ 	border-width: 1px;
+
+ }
+ .navbar-nav .active a{
+ 	color: #0062FF  !important;
+ }
+ .nav-link, .dropdown-menu .dropdown-item{
+ 	color: #053f5e !important;
+ 	font-family: 'Hind Guntur', sans-serif;
+ 	font-size: medium;
+ }
+
+ .nav-link:hover, .dropdown-menu .dropdown-item:hover{
+ 	color: #0062FF !important;
+ }
+ ul .dropdown-menu{
+ 	background-color: #022c43;
+ }
+ /*NAV SEARCH BAR*/
+ #nav-s{
+ 	width: 350px;
+ 	border-radius: 0;
+ 	height: 35px;
+ 	border-style: solid;
+ 	font-family: 'Hind Guntur', sans-serif;
+ }
+
+ #but-s{
+ 	width: 45px;
+ 	height: 35px;
+ 	border-radius: 0;
+ 	background-color: #053f5e;
+ 	border-style: solid;
+ 	border-color: lightgray;
+	/*background-color: #022c43;
+	border-style: none;*/
+}
+#but-s i{
+	/*color: #E7C810; */
+	color: white;
+}
+
+#but-s:hover i{
+	color: #E7C810;
+}
+
+/*Footer*/
+footer{
+	/*background-color: white;*/
+	border-top: solid lightgray 1px;
+	background-color: #F4F4F4;
+}
+
+.redes{
+	text-align: center;
+}
+
+.redes img{
+	height: 40px;
+}
+
+.redes .ig{
+	height: 35px;
+}
+
+footer p{
+ 	font-family: 'Hind Guntur', sans-serif;
+	font-size: smaller;
+	color: #022c43;
+	text-align: center;
+}
+
+footer .container-fluid{
+	background-color: white;
+}
+
+footer .container-fluid #aviso{
+	font-size: xx-small;
+}
+
+/*MAIN*/
+
+.banner img{
+ height: 50vh;
+ width: 100%;
+}
